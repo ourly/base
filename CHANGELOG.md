@@ -12,7 +12,7 @@ We've renamed `http.GetRequestID` and `http.GetUserID` from `http.Get*Id` to mat
 
 ADDITIONS
 
-- idempotent: add [`Header(*http.Request) string`](https://godoc.org/github.com/moov-io/base/idempotent#Header) and `HeaderKey`
+- idempotent: add [`Header(*http.Request) string`](https://godoc.org/github.com/ourly/base/idempotent#Header) and `HeaderKey`
 - http/bind: add Wire HTTP service/port binding
 - http/bind: add customers port
 - http/bind: rename gl to accounts
@@ -50,8 +50,8 @@ ADDITIONS
 
 ADDITIONS
 
-- admin: [`Server.AddHandler`](https://godoc.org/github.com/moov-io/base/admin#Server.AddHandler) for extendable commands
-- http/bind: Add [Fed](https://github.com/moov-io/fed) service
+- admin: [`Server.AddHandler`](https://godoc.org/github.com/ourly/base/admin#Server.AddHandler) for extendable commands
+- http/bind: Add [Fed](https://github.com/ourly/fed) service
 
 ## v0.5.1 (Released 2019-01-17)
 
@@ -67,9 +67,9 @@ BUG FIXES
 
 ADDITIONS
 
-- http/bind: Add [OFAC](https://github.com/moov-io/ofac) and [GL](https://github.com/moov-io/gl) services
-- k8s: Add [`Inside()`](https://godoc.org/github.com/moov-io/base/k8s#Inside) for cluster awareness.
-- docker: Add [`Enabled()`](https://godoc.org/github.com/moov-io/base/docker#Enabled) for compatability checks.
+- http/bind: Add [OFAC](https://github.com/ourly/ofac) and [GL](https://github.com/ourly/gl) services
+- k8s: Add [`Inside()`](https://godoc.org/github.com/ourly/base/k8s#Inside) for cluster awareness.
+- docker: Add [`Enabled()`](https://godoc.org/github.com/ourly/base/docker#Enabled) for compatability checks.
 
 ## v0.4.0 (Released 2019-01-11)
 
@@ -86,7 +86,7 @@ BREAKING CHANGES
 
 ADDITIONS
 
-- Add ParseError and ErrorList. (See: [moov-io/base #23](https://github.com/moov-io/base/issues/23))
+- Add ParseError and ErrorList. (See: [moov-io/base #23](https://github.com/ourly/base/issues/23))
 
 ## v0.2.1 (Released 2019-01-03)
 

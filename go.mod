@@ -1,4 +1,4 @@
-module github.com/moov-io/base
+module github.com/ourly/base
 
 go 1.13
 

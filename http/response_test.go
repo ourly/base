@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/moov-io/base"
-	"github.com/moov-io/base/idempotent/lru"
+	"github.com/ourly/base"
+	"github.com/ourly/base/idempotent/lru"
 
 	"github.com/go-kit/kit/log"
 	"github.com/gorilla/mux"
